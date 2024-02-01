@@ -20,5 +20,13 @@ public class Book {
     public int getStock() {
         return stock;
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getISBN() {
+        return ISBN;
+    }
     
 }
