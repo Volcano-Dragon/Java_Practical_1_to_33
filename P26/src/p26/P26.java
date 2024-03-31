@@ -8,9 +8,9 @@ public class P26 {
         try{
         arr[6]=55;
         }
-        catch(Exception e){
+        catch(ArrayIndexOutOfBoundsException e){
             System.out.println(e);
-            e.printStackTrace();
+            //e.printStackTrace();
         }
     }
     
