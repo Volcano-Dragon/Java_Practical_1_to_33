@@ -1,4 +1,9 @@
-package p20;
+/*
+9. Develop a simple online shopping system. Create a base class Product with attributes 
+productId, productName, and price. Derive classes Electronics, Clothing, and Books from 
+Product. Add specific attributes for each product type. 
+Create objects for each class and demonstrate polymorphism by displaying product details.
+ */
 
 class Product{
     int ID;
@@ -23,7 +28,7 @@ class electronic extends Product{
     String name;
     int power_consumtion;}
 
-public class P20 {
+public class P9 {
 
     public static void main(String[] args) {
         Product p = new Product();
